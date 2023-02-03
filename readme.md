@@ -1,19 +1,20 @@
 
 # HTML-CSS PROJECT-5
 
-This is Crypto Landing page project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
-
+This is Crypto Landing page project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 ## 🛠 Technologies Used
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Demo
+## Demo Video in Desktop Screen
 
-[project-5.webm](https://user-images.githubusercontent.com/100980716/215254346-5d8e945d-3e3a-43f9-a3b3-d7256dc6f8d1.webm)
+[Project-5.webm](https://user-images.githubusercontent.com/100980716/216521848-8fe29492-ad18-44f7-b10e-9778f90d4e59.webm)
+
+## Demo Video in Mobile Screen
+
+https://user-images.githubusercontent.com/100980716/216522111-a3261d51-22f7-4cd6-9ab2-8ec7bb3efc2c.mp4
 
 ## Honest Time to finish the project
 
