@@ -14,7 +14,9 @@ body {
     background-size: 100% 100%;
     height: 100vh;
 }
+/*-------------------------------------------------*/
 /*--------------------NavBar-----------------------*/
+/*-------------------------------------------------*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -62,8 +64,8 @@ body {
     cursor: pointer;
 }
 /*-------------------------------------------------*/
-
 /*--------------------Hero-------------------------*/
+/*-------------------------------------------------*/
 .hero {
     display: flex;
     flex-direction: column;
@@ -97,5 +99,82 @@ body {
     border-radius: 0.5em;
     cursor: pointer;
     margin-top: 3em;
+}
+/*-------------------------------------------------*/
+/*------------------Media-Query--------------------*/
+/*-------------------------------------------------*/
+@media screen and (max-width: 1273px) {
+    .navbar {
+        padding: 1em 1em;
+    }
+    
+    .logo {
+        width: 11vw;
+    }
+
+    .navbar div:first-child::after {
+        display: none;
+    }
+
+    .list {
+        justify-content: space-between;
+        width: 60vw;
+        gap: 0;
+        margin-right: 0em;
+    }
+
+    .hero-heading {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    body {
+        background-size: cover;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.8em;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+    }
+
+    .hero {
+        margin-top: 1em;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        height: 70vw;
+    }
+
+    .hero-heading {
+        margin-top: 1em;
+        font-size: 10vw;
+        width: 90vw;
+    }
+
+    .hero-description {
+        font-size: 4vw;
+    }
+
+    .button-large {
+        font-size: 4vw;
+        margin-top: -1em;
+    }
+}
+
+@media screen and (min-width: 428px)and (max-width: 748px) {
+    body {
+        background-size: cover;
+        width: 100vw;
+        height: 132vh;
+    }
 }
 /*-------------------------------------------------*/
